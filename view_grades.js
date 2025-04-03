@@ -484,26 +484,6 @@ document.addEventListener('DOMContentLoaded', function() {
         questionsContainer.appendChild(questionCard);
         });
 
-        //     const questionCard = document.createElement('div');
-        //     questionCard.className = 'question-card';
-        //     questionCard.innerHTML = `
-        //         <h3>Question ${question.question_number} ${question.subpart ? `(${question.subpart})` : ''}</h3>
-        //         <p class="question-text">${renderLatex(question.question || 'Question not available')}</p>
-        //         <div class="marks-info">
-        //             <span>Marks: <span class="obtained">${question.marks || 0}</span> / <span class="max">${question.max_marks || 0}</span></span>
-        //         </div>
-        //         <div class="answer-section">
-        //             <h4>Your Answer:</h4>
-        //             <p>${renderLatex(question.student_answer || 'No answer provided')}</p>
-        //         </div>
-        //         <div class="reasoning-section">
-        //             <h4>Feedback:</h4>
-        //             <p>${renderLatex(question.feedback || 'No additional reasoning provided')}</p>
-        //         </div>
-        //     `;
-        //     questionsContainer.appendChild(questionCard);
-        // });
-
         // Ensure MathJax is loaded and configured
         if (!window.MathJax) {
             const script = document.createElement('script');
