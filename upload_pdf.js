@@ -2,7 +2,7 @@ document.addEventListener('DOMContentLoaded', function() {
     // Configuration
     const CONFIG = {
         API: {
-            API_ENDPOINT: 'https://rus9nultj9.execute-api.eu-north-1.amazonaws.com/dev/uploadpdf'
+            API_ENDPOINT: ''
         },
         UPLOAD: {
             MAX_FILE_SIZE_MB: 10,
